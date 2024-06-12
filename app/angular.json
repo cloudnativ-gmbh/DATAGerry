@@ -63,7 +63,7 @@
                                 "glob": "**/*",
                                 "input": "node_modules/tinymce",
                                 "output": "/tinymce/"
-                               }
+                            }
                         ],
                         "styles": ["src/styles.scss"],
                         "scripts": [
@@ -112,18 +112,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                      "buildTarget": "datagerry-app:build"
+                        "buildTarget": "datagerry-app:build"
                     },
                     "configurations": {
                         "production": {
-                          "buildTarget": "datagerry-app:build:production"
+                            "buildTarget": "datagerry-app:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                      "buildTarget": "datagerry-app:build"
+                        "buildTarget": "datagerry-app:build"
                     }
                 },
                 "test": {
